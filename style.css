@@ -524,6 +524,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	border-radius: 10px;
 	background-color: var(--transparentish2);
 	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 	color: var(--text-color);
 	text-align: center;
 	transition: 0.3s ease;
