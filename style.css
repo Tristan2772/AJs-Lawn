@@ -214,13 +214,14 @@ section {
 }
 
 #hero .hero-img {
+	min-height: 711px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-		url(img/Background1.jpg);
+	url(img/Background1.avif);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
-	min-height: 642px;
+	width: 100%;
+	aspect-ratio: 2/1;
 }
 
 #hero .hero-overlay {
@@ -350,7 +351,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(img/AJs_Mow_Before.jpg);
+	background-image: url(img/AJs_Mow_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -362,7 +363,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Mow_After.jpg);
+	background: url(img/AJs_Mow_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -374,7 +375,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Garden_Before.jpg);
+	background: url(img/AJs_Garden_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -386,7 +387,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Garden_After.jpg);
+	background: url(img/AJs_Garden_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -398,7 +399,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Bush_Before.jpg);
+	background: url(img/AJs_Bush_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -410,7 +411,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Bush_After.jpg);
+	background: url(img/AJs_Bush_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -423,7 +424,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Paint_Before.jpg);
+	background: url(img/AJs_Paint_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -435,7 +436,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Paint_After.jpg);
+	background: url(img/AJs_Paint_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -447,7 +448,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Fence_Before.jpg);
+	background: url(img/AJs_Fence_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -459,7 +460,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Fence_After.jpeg);
+	background: url(img/AJs_Fence_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -471,7 +472,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Gutter_Before.jpeg);
+	background: url(img/AJs_Gutter_Before.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -483,7 +484,7 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(img/AJs_Gutter_After.jpg);
+	background: url(img/AJs_Gutter_After.avif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -523,8 +524,8 @@ a.call-btn:hover, a.call-btn:focus-visible {
 	padding: 0 5px 5px;
 	border-radius: 10px;
 	background-color: var(--transparentish2);
-	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 	color: var(--text-color);
 	text-align: center;
 	transition: 0.3s ease;
@@ -1500,7 +1501,7 @@ footer ul li {
 	}
 	#hero .hero-img {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-			url(img/Background1.jpg);
+			url(img/Background1.avif);
 	}
 	#hero .hero-overlay {
 		color: white;

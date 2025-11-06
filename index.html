@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJ's Lawn and Home Improvements</title>
-    <link rel="shortcut icon" href="img/Ajs_logo1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Ajs_logo1.avif" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <header>
         <nav>
             <a class="nav-block" href="#">
-                <img src="img/Ajs_logo1.png" alt="AJ's Lawn and Home Improvements Logo" loading="lazy">
+                <img src="img/Ajs_logo1.avif" alt="AJ's Lawn and Home Improvements Logo" loading="eager" fetchpriority="high">
                 <h1>AJ's Lawn and
                     <br>Home Improvements
                 </h1>
@@ -32,7 +32,7 @@
             <div id="hamburger-menu" class="nav-block">
 
                 <div class="nav-dropdown" id="lawn-dropdown">
-                    <button id="btn1"  aria-expanded="false" aria-controls="list1">
+                    <button type="button"id="btn1"  aria-expanded="false" aria-controls="list1">
                         <p>Lawn Services</p> 
                         <i class='bx bx-chevron-down'></i>
                     </button>
@@ -44,7 +44,7 @@
                 </div>
                 
                 <div class="nav-dropdown" id="home-dropdown">
-                    <button id="btn2"  aria-expanded="false" aria-controls="list2">
+                    <button type="button"id="btn2"  aria-expanded="false" aria-controls="list2">
                         <p>Home Services</p>
                         <i class='bx bx-chevron-down'></i>
                     </button>
@@ -64,11 +64,12 @@
     <main>
     <section id="hero">
         <div class="hero-container">
-            <div role="presentation" class="hero-img"></div>
-            <div class="hero-overlay">
-                <h2>We make a house a home</h2>
-                <p>Offering friendly and efficient lawn care and home improvement services in Oklahoma City, OK and surrounding areas.</p>
-                <a class="call-btn" href="tel:+14059820906">Call (405) 982-0906</a>
+            <div class="hero-img">
+                <div class="hero-overlay">
+                    <h2>We make a house a home</h2>
+                    <p>Offering friendly and efficient lawn care and home improvement services in Oklahoma City, OK and surrounding areas.</p>
+                    <a class="call-btn" href="tel:+14059820906">Call (405) 982-0906</a>
+                </div>
             </div>
         </div>
         <!-- img footer -->
@@ -85,7 +86,7 @@
         <h2>Looking to get your lawn serviced in Oklahoma City, OK? </h2>
         <div class="services-list">
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="mow-b"></div><div class="mow-a"></div></div>
+                <div class="service-img" tabindex="0"><div loading="lazy" class="mow-b"></div><div loading="lazy" class="mow-a"></div></div>
                 <div class="card-content">
                     <h3>Mow Package</h3>
                     <p>We will come out to mow and edge your lawn quickly and efficiently, leaving no blade uncut.</p>
@@ -94,7 +95,7 @@
             </div>
 
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="garden-b"></div><div class="garden-a"></div></div>
+                <div class="service-img" tabindex="0"><div loading="lazy" class="garden-b"></div><div loading="lazy" class="garden-a"></div></div>
                 <div class="card-content">
                     <h3>Garden Bed Cleanup</h3>
                     <p>Garden bed got out of hand? AJ's is here to help you get it back under control.</p>
@@ -103,7 +104,7 @@
             </div>
             
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="bush-b"></div><div class="bush-a"></div></div>
+                <div class="service-img" tabindex="0"><div loading="lazy" class="bush-b"></div><div loading="lazy" class="bush-a"></div></div>
                 <div class="card-content">
                     <h3>Bush & Tree Trimming</h3>
                     <p>Are your tree limbs too long and your bushes too... bushy? Our experts are ready to cut them back.</p>
@@ -119,7 +120,7 @@
         <h2>Or home improvement services in Oklahoma City, OK?</h2>
         <div class="services-list">
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="gutter-b"></div><div class="gutter-a"></div></div>
+                <div class="service-img" loading="lazy" tabindex="0"><div class="gutter-b"></div><div class="gutter-a"></div></div>
                 <div class="card-content">
                     <h3>Gutter Cleaning</h3>
                     <p>We make it easy to keep your head out the gutter. We simply clean it so you don't have to.</p>
@@ -127,7 +128,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="fence-b"></div><div class="fence-a"></div></div>
+                <div class="service-img" loading="lazy" tabindex="0"><div class="fence-b"></div><div class="fence-a"></div></div>
                 <div class="card-content">
                     <h3>Wood Fence Repair</h3>
                     <p>With Oklahoma's weather, it's only a matter of time before that fence comes down. We're here to put it back up.</p>
@@ -135,7 +136,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="service-img" tabindex="0"><div class="paint-b"></div><div class="paint-a"></div></div>
+                <div class="service-img" loading="lazy" tabindex="0"><div class="paint-b"></div><div class="paint-a"></div></div>
                 <div class="card-content">
                     <h3>Interior & Exterior Painting</h3>
                     <p>Whether inside or outside, we're willing to help you make that renovation and paint your house.</p>
@@ -226,7 +227,7 @@
 
     <!-- ------- About ------- -->
     <section id="about">
-        <img src="img/Ajs_logo1.png" alt="aj's logo" loading="lazy">
+        <img src="img/Ajs_logo1.avif" alt="aj's logo" loading="lazy">
         <h2>About Us</h2>
         <p>We are a small, friendly, family-owned and operated business based in Midwest City, Oklahoma. We have been cutting yards and doing handiwork with our team of experts since 2020. We took the next step to officially make it a business in March 2024. Since then, we have continued to grow our team and skill set so that we can put more smiles on the faces of the people in our community. Thank you for taking the time to check us out.</p>
     </section>
@@ -237,7 +238,7 @@
         <section id="faq">
             <h2>Frequently Asked Questions</h2>
             <div class="question-card">
-                <button class="question" aria-expanded="false" aria-controls="question1">
+                <button type="button"class="question" aria-expanded="false" aria-controls="question1">
                     <i class='bx bx-chevron-down'></i>
                     <p>What qualifies as an odd job?</p>
                 </button>
@@ -249,7 +250,7 @@
                 </div>
             </div>
             <div class="question-card">
-                <button class="question" aria-expanded="false" aria-controls="question2">
+                <button type="button"class="question" aria-expanded="false" aria-controls="question2">
                     <i class='bx bx-chevron-down'></i>
                     <p>How much do I have to pay?</p>
                 </button>
@@ -261,7 +262,7 @@
                 </div>            
             </div>
             <div class="question-card">
-                <button class="question" aria-expanded="false" aria-controls="question3">
+                <button type="button"class="question" aria-expanded="false" aria-controls="question3">
                     <i class='bx bx-chevron-down'></i>
                     <p>Is my odd job too big or too small to take?</p>
                 </button>
@@ -273,7 +274,7 @@
                 </div>            
             </div>
             <div class="question-card">
-                <button class="question" aria-expanded="false" aria-controls="question4">
+                <button type="button"class="question" aria-expanded="false" aria-controls="question4">
                     <i class='bx bx-chevron-down'></i>
                     <p>Will I ever have surprise charges?</p>
                 </button>
